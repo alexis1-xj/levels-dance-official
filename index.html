@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levels Dance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/themify-icons@0.1.2/css/themify-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="light-theme">
+    <header>
+        <h1>Levels Dance</h1>
+        <p>Bringing Energy & Passion to Dance | Official Website of Justice Obeng</p>
+        <button id="theme-toggle">Switch Theme</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="videos">
+            <h2>Featured Dance Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wBAvPfqm-Ds" frameborder="0" allowfullscreen></iframe>
+            <p><a href="https://www.youtube.com/@levelsdances" target="_blank">Visit our YouTube Channel</a></p>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Best Performing Videos</h2>
+            <div class="video-list">
+                <iframe width="250" height="140" src="https://www.youtube.com/embed/eQKAhmCJrfw" frameborder="0" allowfullscreen></iframe>
+                <iframe width="250" height="140" src="https://www.youtube.com/embed/6e9aJMfzJz0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="250" height="140" src="https://www.youtube.com/embed/GkMiXDI1ZqY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </aside>
+    </div>
+
+    <section id="about">
+        <h2>About Levels Dance</h2>
+        <p>Levels Dance is a dynamic dance group led by <strong>Justice Obeng</strong>. We create high-energy performances, tutorials, and inspiring dance content.</p>
+        <p>Follow us for the latest dance trends and moves!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:justiceobeng12345@gmail.com">justiceobeng12345@gmail.com</a></p>
+        <p>Phone: <a href="tel:+233576787121">+233 57 678 7121</a></p>
+        <p>Follow us on <a href="https://www.youtube.com/@levelsdances" target="_blank">YouTube</a></p>
+    </section>
+
+    <footer>
+        <h6 class="text-secondary text-uppercase mt-4 mb-3">Follow Us</h6>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/19dfCSz6A8/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/levelsbwoy?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/@levelsdances?_t=ZM-8xXIJ7mIWLV&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/levelsdances?igsh=Y2U2c3NmazQza2Nm&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@levelsdances" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2025 Levels Dance | Designed by SKYSCAPPERS®</p>
+    </footer>
+    
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+            body.classList.toggle('light-theme');
+        });
+    </script>
+</body>
+</html>
+
